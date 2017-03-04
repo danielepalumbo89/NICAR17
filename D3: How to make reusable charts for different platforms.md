@@ -99,11 +99,14 @@ var stylesoc = {classes:
 
 [d3-jetpack](https://www.npmjs.com/package/d3-jetpack) for convenience functions that will save you a lot of repetitive typing.
 
-[d3-legend](http://d3-legend.susielu.com/) to make convenient legends based on your scales.
+[d3-legend](http://d3-legend.susielu.com/) - To make convenient legends based on your scales.
 
-[Textures.js](https://riccardoscalco.github.io/textures/) to use patterns in your visualizations.
+[Textures.js](https://riccardoscalco.github.io/textures/) - Use patterns in your visualizations.
 
-[Swoopy drag](https://github.com/1wheel/swoopy-drag) for interactive annotations.
+[Swoopy drag](https://github.com/1wheel/swoopy-drag) - For interactive annotations.
 
-[d3-annotation](http://d3-annotation.susielu.com/) another tool to create annotations.
+[d3-annotation](http://d3-annotation.susielu.com/) - Another tool to create annotations.
 
+[awesome-d3](https://github.com/wbkd/awesome-d3) - Looking for more? This list keeps track of interesting D3js libraries, plugins and utilities. 
+
+[Tutorials, techniques, blogs, books and meetups (!)](https://github.com/d3/d3/wiki/Tutorials) - More, more and more resources.
