@@ -72,7 +72,26 @@ Background: https://bost.ocks.org/mike/chart/
 - Social: 560px x 750px (People love scrolling, let's develop in vertical).
 - Video: 1920px x 1080px (Yes! Video!)
 
-Styling in css for several charts can be time-consuming. Solution: 
+## 4 - Style
+
+   Styling in css for several charts can be time-consuming. Solution: standardise the structure of the d3.js chart and create    one file - style.js - able to style all your charts, any time. 
+   
+   ```
+var stylemobile = {classes:
+[{class:"background {fill: #FDFEFF}"},
+{class:"chartholder {fill: none}"},
+{class:"title {font: 600 20px/140% 'Lato', sans-serif;fill: #000000;}"}, // etc ...
+
+var styleweb = {classes:
+[{class:"background{fill: #FDFEFF}"},
+{class:"chartholder{fill: none;}"},
+{class:"title{font: 600 26px/140% 'Lato', sans-serif;fill: #000000;}"}, // etc ...
+   
+var stylesoc = {classes:
+[{class:"background{fill: #FDFEFF;}"},
+{class:"chartholder{fill: none;}"},
+{class:"title{font: 900 34px/140% 'Lato', sans-serif;fill: #000000;}"}, // etc...
+   ```
 
 # For your bookmarks and coding time
 
