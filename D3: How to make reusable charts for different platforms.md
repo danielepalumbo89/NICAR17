@@ -20,7 +20,7 @@ Background: https://bost.ocks.org/mike/chart/
    This is the tricky part. 
    Github is the best source of libraries we can use to create a visual workflow.
    
-   ###### PNG download
+###### PNG download
    ```
            // function download(name, uri) {
                 var a = document.createElement('a');
@@ -52,9 +52,11 @@ Background: https://bost.ocks.org/mike/chart/
               }
    ```
    
-   ###### Static frame
+###### Static frame
    ```
    Function drawFrame(styles, mediaFormat, title, subT) {
+        // Here we add style.js, unique media variables for each format 
+   }
    ```
    
    In my tool project I'm using:
