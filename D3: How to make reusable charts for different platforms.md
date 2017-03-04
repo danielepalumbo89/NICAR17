@@ -67,6 +67,9 @@ Background: https://bost.ocks.org/mike/chart/
    The implementation is the stage in which we develop style and chart identity.
    We also decide with which frame we want to work with. And nowadays Frame are really important.
    
-- Mobile: 340px x 482px (In my experience, the best w and h);
-- Desktop: 730px 530px (This variates depending on your article page);
-- Social: 560px 750px (People love scrolling).
+- Mobile: 340px x 482px (In my experience, the best w and h for mobile working across most the devices);
+- Desktop: 730px x 530px (This variates depending on your article page);
+- Social: 560px x 750px (People love scrolling, let's develop in vertical).
+- Video: 1920px x 1080px (Yes! Video!)
+
+
