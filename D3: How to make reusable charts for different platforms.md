@@ -1,6 +1,5 @@
 # D3.js: How to make reusable charts for different platforms
-
-###### Daniele Palumbo, International Business Times UK
+## Daniele Palumbo, International Business Times UK
 ###### Twitter: @danict89
 
 
@@ -21,13 +20,14 @@ Background: https://bost.ocks.org/mike/chart/
    This is the tricky part. 
    Github is the best source of libraries we can use to create a visual workflow.
    In my tool project I'm using:
-   - Save as PNG: https://github.com/exupero/saveSvgAsPng/blob/gh-pages/saveSvgAsPng.js ;
-   - Static frames: https://github.com/kangax/fabric.js initial idea. However, I've implemented the same system with d3 with        media queries. 
+- Save as PNG: https://github.com/exupero/saveSvgAsPng/blob/gh-pages/saveSvgAsPng.js ;
+- Static frames: https://github.com/kangax/fabric.js initial idea. However, I've implemented the same system with d3 with        media queries. 
       
 ## 3 - Implementation
    What we want to add in our chart? Text, labels, axis, annotations, sources, logo!
    The implementation is the stage in which we develop style and chart identity.
    We also decide with which frame we want to work with. And nowadays Frame are really important.
- - Mobile: 340px x 482px;
- - Desktop: 730px 530px (This variates depending on your article page);
- - Social: 560px 750px (People love scrolling).
+   
+- Mobile: 340px x 482px (In my experience, the best w and h);
+- Desktop: 730px 530px (This variates depending on your article page);
+- Social: 560px 750px (People love scrolling).
