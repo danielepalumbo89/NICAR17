@@ -8,10 +8,20 @@ Background: https://bost.ocks.org/mike/chart/
 
 ## 1 - Configuration
   When learning d3.js, the way we learn how to structure the code is crucial. Setting now the code with in mind                 reusability will help us to not change the code everytime we need a new chart or we have a new dataset. 
-
+      
+      ```
       function chart() {
       // your chart here
       }
+      -------------------
+      function                   --> from var to function, setting once the most important variables
+      chart(                     --> here we will add the variables to apply to all the charts
+      )                            
+      {
+                                 --> chart code
+      }
+      
+      ```
       
   Creating the chart as function will save us time because we will be able to include the main part of the chart (data, axis,   scales, labels) all in one place, styling them in a separate file.
       
