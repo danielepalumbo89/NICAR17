@@ -1,7 +1,7 @@
 # D3.js: How to make reusable charts for different platforms
 
-   ###### Daniele Palumbo, International Business Times UK
-   ###### Twitter: @danict89
+###### Daniele Palumbo, International Business Times UK
+###### Twitter: @danict89
 
 
 # Key points:
@@ -28,6 +28,6 @@ Background: https://bost.ocks.org/mike/chart/
    What we want to add in our chart? Text, labels, axis, annotations, sources, logo!
    The implementation is the stage in which we develop style and chart identity.
    We also decide with which frame we want to work with. And nowadays Frame are really important.
-   - Mobile: 340px x 482px;
-   - Desktop: 730px 530px (This variates depending on your article page);
-   - Social: 560px 750px (People love scrolling).
+ - Mobile: 340px x 482px;
+ - Desktop: 730px 530px (This variates depending on your article page);
+ - Social: 560px 750px (People love scrolling).
