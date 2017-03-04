@@ -19,10 +19,48 @@ Background: https://bost.ocks.org/mike/chart/
 ## 2 - Re-configuration
    This is the tricky part. 
    Github is the best source of libraries we can use to create a visual workflow.
+   
+   ###### PNG download
+   ```
+           // function download(name, uri) {
+                var a = document.createElement('a');
+                a.download = name;
+                a.href = uri;
+                document.body.appendChild(a);
+                a.addEventListener("click", function(e) {
+                  a.parentNode.removeChild(a);
+                });
+                a.click();
+              }
+
+              out$.saveSvg = function(el, name, options) {
+                requireDomNode(el);
+
+                options = options || {};
+                out$.svgAsDataUri(el, options, function(uri) {
+                  download(name, uri);
+                });
+              }
+
+              out$.saveSvgAsPng = function(el, name, options) {
+                requireDomNode(el);
+
+                options = options || {};
+                out$.svgAsPngUri(el, options, function(uri) {
+                  download(name, uri);
+                });
+              }
+   ```
+   
+   ###### Static frame
+   ```
+   Function drawFrame(styles, mediaFormat, title, subT) {
+   ```
+   
    In my tool project I'm using:
 - Save as PNG: https://github.com/exupero/saveSvgAsPng/blob/gh-pages/saveSvgAsPng.js ;
-- Static frames: https://github.com/kangax/fabric.js initial idea. However, I've implemented the same system with d3 with        media queries. 
-      
+- Static frames: https://github.com/kangax/fabric.js initial idea. However, I've implemented the same system with d3 and        media queries.    
+            
 ## 3 - Implementation
    What we want to add in our chart? Text, labels, axis, annotations, sources, logo!
    The implementation is the stage in which we develop style and chart identity.
