@@ -105,13 +105,14 @@ var stylesoc = {classes:
 {class:"chartholder{fill: none;}"},
 {class:"title{font: 900 34px/140% 'Lato', sans-serif;fill: #000000;}"}, // etc...
    ```
+[Chart-friendly colour palette](https://github.com/danielepalumbo89/NICAR17/blob/master/Colour-palette-test-py.pdf)
+
 
 # For your bookmarks and coding time
 
 [Crowbar](http://nytimes.github.io/svg-crowbar/) to download your chart as an SVG. You can then edit it using vector graphics software such as Adobe Illustrator.
 
 [d3-jetpack](https://www.npmjs.com/package/d3-jetpack) for convenience functions that will save you a lot of repetitive typing.
-
 
 [d3-legend](http://d3-legend.susielu.com/) - To make convenient legends based on your scales.
 
