@@ -72,8 +72,8 @@ Background: https://bost.ocks.org/mike/chart/
    ```
    
    In my tool project I'm using:
-- Save as PNG: https://github.com/exupero/saveSvgAsPng/blob/gh-pages/saveSvgAsPng.js ;
-- Static frames: https://github.com/kangax/fabric.js initial idea. However, I've implemented the same system with d3 and        media queries.    
+- [Save as PNG](https://github.com/exupero/saveSvgAsPng/blob/gh-pages/saveSvgAsPng.js) ;
+- [Static frames](https://github.com/kangax/fabric.js) initial idea. However, I've implemented the same system with d3 and       media queries.
             
 ## 3 - Implementation
    What we want to add in our chart? Text, labels, axis, annotations, sources, logo!
