@@ -112,6 +112,7 @@ var stylesoc = {classes:
 
 [d3-jetpack](https://www.npmjs.com/package/d3-jetpack) for convenience functions that will save you a lot of repetitive typing.
 
+
 [d3-legend](http://d3-legend.susielu.com/) - To make convenient legends based on your scales.
 
 [Textures.js](https://riccardoscalco.github.io/textures/) - Use patterns in your visualizations.
@@ -119,6 +120,8 @@ var stylesoc = {classes:
 [Swoopy drag](https://github.com/1wheel/swoopy-drag) - For interactive annotations.
 
 [d3-annotation](http://d3-annotation.susielu.com/) - Another tool to create annotations.
+
+[FT's visual vocabulary](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf) - Choose the right chart, for its right use with the help of FT's Data team.
 
 [awesome-d3](https://github.com/wbkd/awesome-d3) - Looking for more? This list keeps track of interesting D3js libraries, plugins and utilities. 
 
