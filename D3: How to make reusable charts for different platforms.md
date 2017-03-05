@@ -1,4 +1,7 @@
 # D3.js: How to make reusable charts for different platforms
+
+# Go to: http://bit.ly/nicar17-d3
+
 ## Daniele Palumbo, International Business Times UK       |      Twitter: @danict89
 
 
