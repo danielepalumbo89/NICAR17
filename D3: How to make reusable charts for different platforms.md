@@ -126,6 +126,7 @@ var stylesoc = {classes:
 
 [Tutorials, techniques, blogs, books and meetups (!)](https://github.com/d3/d3/wiki/Tutorials) - More, more and more resources.
 
+ 
 ## Thanks!
 ## Daniele Palumbo, International Business Times UK
 ###### [Twitter: @danict89](www.twitter.com/danict89) |  [Linkedin](bit.ly/dpalumbo)
